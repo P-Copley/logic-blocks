@@ -50,7 +50,7 @@ describe('sleepyGuards', () => {
       '[1518-11-05 00:45] falls asleep',
       '[1518-11-05 00:55] wakes up',
     ];
-    expect(sleepyGuards(lines)).to.equal(240);
+    expect(sleepyGuards(lines)).to.equal(4455);
   });
   xit('solves the puzzle input', async () => {
     const input = await readFile(`${__dirname}/../input.txt`, 'utf-8');
